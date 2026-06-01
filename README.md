@@ -20,7 +20,7 @@ A mockup of the Excel database is included in this repository for testing purpos
 The GUI lets the user select a user, material type, and cascade from the database. Once a cascade is selected, the relevant AMR properties (cp, porosity, mass) are retrieved automatically from the spreadsheet. On confirmation, the selected configuration is returned.  
 # Usage
 Standalone (testing):  
-python labview_gui.py  
+GUI_recording_AMR_V4_py3_6.py  
 The selected configuration will be printed to the console.  
 # From LabVIEW:  
 The script is designed to be called from LabVIEW via the Python Node. The GUI will pop up, and once the user confirms, the values are returned directly to LabVIEW to be used in the running VI.  
