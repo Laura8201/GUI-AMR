@@ -12,7 +12,7 @@ openpyxl
 pip install openpyxl  
 # Configuration
 The path to the Excel database is defined as a constant at the top of the file:  
-EXCEL_PATH = r"C:\Users\laura\Desktop\NewFormatDatabase.xlsx"  
+EXCEL_PATH = r"C:\Users\laura\OneDrive\Desktop\Python\GUI_AMR\Mockup_DataBase.xlsx"  
 Change this to match the location of the file on your machine before running.  
 # Excel Database
 A mockup of the Excel database is included in this repository for testing purposes. The actual database used in the lab contains sensitive data and cannot be shared.  
